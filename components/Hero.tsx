@@ -8,8 +8,8 @@ export default function Hero() {
   return (
     <section id="inicio" className="relative h-[100svh] min-h-[600px] w-full overflow-hidden">
       <Image
-        src="/hero-punta-del-este.png"
-        alt="Punta del Este, Uruguay — puerto y skyline"
+        src="/images/hero-sunset-punta-del-este.jpg"
+        alt="Punta del Este, Uruguay — vista aérea al atardecer"
         fill
         priority
         quality={100}
@@ -25,7 +25,7 @@ export default function Hero() {
       />
 
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
-        <div className="animate-fade-up mb-10">
+        <div className="animate-fade-up mb-8">
           <Logo variant="hero" />
         </div>
 

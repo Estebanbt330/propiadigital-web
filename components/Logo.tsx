@@ -7,11 +7,11 @@ export default function Logo({
   variant?: LogoVariant;
   className?: string;
 }) {
-  const digitalColor = variant === "hero" ? "text-white" : "text-petrol";
-  const propiaSize =
-    variant === "hero" ? "text-4xl sm:text-5xl" : "text-xl sm:text-2xl";
-  const digitalSize =
-    variant === "hero" ? "text-sm sm:text-base" : "text-[9px] sm:text-[10px]";
+  const isHero = variant === "hero";
+  const digitalColor = isHero ? "text-white" : "text-petrol";
+  const propiaSize = isHero ? "text-4xl sm:text-6xl" : "text-xl sm:text-2xl";
+  const digitalSize = isHero ? "text-base sm:text-xl" : "text-[9px] sm:text-[10px]";
+  const digitalTracking = isHero ? "tracking-[0.5em]" : "tracking-[0.35em]";
 
   return (
     <span
@@ -23,8 +23,8 @@ export default function Logo({
         PROPIA
       </span>
       <span
-        className={`font-sans font-medium uppercase tracking-[0.35em] ${digitalColor} ${digitalSize} ${
-          variant === "hero" ? "mt-1" : "mt-0.5"
+        className={`font-sans font-medium uppercase ${digitalTracking} ${digitalColor} ${digitalSize} ${
+          isHero ? "mt-2 sm:mt-3" : "mt-0.5"
         }`}
       >
         DIGITAL
