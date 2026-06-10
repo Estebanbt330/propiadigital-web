@@ -1,0 +1,169 @@
+{
+  "Meta": {
+    "title": "Propia Digital — Your property, your brand, your guests",
+    "description": "We build professional websites for rental property owners in Punta del Este. Stop depending on the big platforms and start building your own brand."
+  },
+  "Nav": {
+    "home": "Home",
+    "problem": "The problem",
+    "solution": "The solution",
+    "plans": "Plans",
+    "contact": "Contact",
+    "cta": "I want my website",
+    "language": "Language"
+  },
+  "Hero": {
+    "title": "Your property, your brand, your guests.",
+    "subtitle": "Stop depending on the big platforms. Start building your brand.",
+    "cta": "I want my website"
+  },
+  "Problem": {
+    "title": "Tired of depending on others to rent your property?",
+    "subtitle": "The big platforms give you visibility, but at a cost that often goes unseen.",
+    "cards": [
+      {
+        "title": "Your account gets closed",
+        "text": "An unexpected suspension and you lose entire weeks of the high season."
+      },
+      {
+        "title": "You pay high commissions",
+        "text": "Up to 20% of every booking goes to commissions that come out of your pocket."
+      },
+      {
+        "title": "The guests aren't yours",
+        "text": "Whoever books stays a customer of the platform, not yours. You can't build loyalty."
+      }
+    ]
+  },
+  "Solution": {
+    "title": "Your own website. Your business, your way.",
+    "subtitle": "Your entire digital presence in one place, simple and under your control.",
+    "benefits": [
+      {
+        "title": "We handle all the technical side for you",
+        "text": "You focus on welcoming guests. We make sure your website always works."
+      },
+      {
+        "title": "Know who visits your property",
+        "text": "See how many people view your site and from which country, in plain language."
+      },
+      {
+        "title": "Get a summary every month, without lifting a finger",
+        "text": "You receive an email with everything that matters. No logging in, nothing new to learn."
+      },
+      {
+        "title": "Your guests come back to you",
+        "text": "Your clients book directly with you, not a platform. You build your brand."
+      }
+    ]
+  },
+  "Calculator": {
+    "title": "How much are you losing in commissions?",
+    "subtitle": "Move the value and see your savings instantly.",
+    "sliderLabel": "My property earns per season:",
+    "airbnbLabel": "The big platforms charge you (20%)",
+    "propiaLabel": "With Propia Digital you pay (annual plan)",
+    "savingsLabel": "Your savings in one year",
+    "cta": "I want to save this",
+    "disclaimer": "Estimated calculation for illustrative purposes. Real savings depend on your property and season."
+  },
+  "Pricing": {
+    "title": "Choose the plan that fits you best",
+    "subtitle": "No surprises. Everything included so your site works from day one.",
+    "popular": "Most popular",
+    "perMonth": " USD/mo",
+    "setup": "Initial setup: $100 USD + $50 USD per property",
+    "cta": "Start with this plan",
+    "plans": {
+      "essential": {
+        "name": "Essential",
+        "price": "$80",
+        "features": [
+          "Your complete website",
+          "Up to 3 properties",
+          "Your own control panel",
+          "Direct WhatsApp button",
+          "Basic visit statistics",
+          "Additional properties: $50 USD each"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "$130",
+        "features": [
+          "Everything in Essential",
+          "Up to 8 properties",
+          "Blog to attract more visitors",
+          "Monthly summary by email",
+          "Property comparison tool",
+          "1 free additional property per year",
+          "From the second: $50 USD each"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "$180",
+        "features": [
+          "Everything in Professional",
+          "Unlimited properties",
+          "Priority support",
+          "Personalized onboarding",
+          "1 free additional property per year",
+          "From the second: $50 USD each"
+        ]
+      }
+    }
+  },
+  "Testimonials": {
+    "title": "What our clients say",
+    "subtitle": "Owners like you who took the step to have their own website.",
+    "items": [
+      {
+        "name": "Marcela Fernández",
+        "city": "Punta del Este, Uruguay",
+        "text": "I finally have my own website. My guests write to me directly and I stopped paying huge commissions. The difference shows."
+      },
+      {
+        "name": "Roberto Giménez",
+        "city": "Buenos Aires, Argentina",
+        "text": "I have two properties in La Barra and manage everything from my phone. Simple, elegant and independent."
+      },
+      {
+        "name": "Lucía Methol",
+        "city": "Maldonado, Uruguay",
+        "text": "The best part is the peace of mind. My brand is mine, my clients are mine. I recommend Propia Digital without hesitation."
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Want your website? Let's talk.",
+    "subtitle": "We reply in under 24 hours.",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "you@email.com",
+    "whatsapp": "WhatsApp",
+    "whatsappPlaceholder": "+598 ...",
+    "message": "Message (optional)",
+    "messagePlaceholder": "Tell us about your property...",
+    "submit": "Send inquiry",
+    "sending": "Sending...",
+    "success": "Thank you! We received your inquiry and will reply within 24 hours.",
+    "error": "There was a problem sending. Try again or write to us on WhatsApp.",
+    "or": "or",
+    "whatsappButton": "Message us on WhatsApp",
+    "emailLabel": "Write to us at"
+  },
+  "Footer": {
+    "tagline": "Your property, your brand.",
+    "home": "Home",
+    "plans": "Plans",
+    "contact": "Contact",
+    "rights": "© 2025 Propia Digital. All rights reserved.",
+    "madeFor": "Made for property owners in Punta del Este, Uruguay."
+  },
+  "Whatsapp": {
+    "prefill": "Hi, I'm interested in having my website with Propia Digital",
+    "aria": "Message us on WhatsApp"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "Meta": {
+    "title": "Propia Digital — Seu imóvel, sua marca, seus hóspedes",
+    "description": "Criamos sites profissionais para proprietários de imóveis de aluguel em Punta del Este. Pare de depender das grandes plataformas e construa sua própria marca."
+  },
+  "Nav": {
+    "home": "Início",
+    "problem": "O problema",
+    "solution": "A solução",
+    "plans": "Planos",
+    "contact": "Contato",
+    "cta": "Quero meu site",
+    "language": "Idioma"
+  },
+  "Hero": {
+    "title": "Seu imóvel, sua marca, seus hóspedes.",
+    "subtitle": "Pare de depender das grandes plataformas. Comece a construir sua marca.",
+    "cta": "Quero meu site"
+  },
+  "Problem": {
+    "title": "Cansado de depender de outros para alugar seu imóvel?",
+    "subtitle": "As grandes plataformas dão visibilidade, mas a um custo que muitas vezes não se vê.",
+    "cards": [
+      {
+        "title": "Sua conta é bloqueada",
+        "text": "Uma suspensão inesperada e você perde semanas inteiras da alta temporada."
+      },
+      {
+        "title": "Você paga comissões altas",
+        "text": "Até 20% de cada reserva vai para comissões que saem do seu bolso."
+      },
+      {
+        "title": "Os hóspedes não são seus",
+        "text": "Quem reserva continua cliente da plataforma, não seu. Você não consegue fidelizar."
+      }
+    ]
+  },
+  "Solution": {
+    "title": "Seu próprio site. Seu negócio, do seu jeito.",
+    "subtitle": "Toda a sua presença digital em um só lugar, simples e sob seu controle.",
+    "benefits": [
+      {
+        "title": "Nós cuidamos de toda a parte técnica por você",
+        "text": "Você se concentra em receber hóspedes. Nós garantimos que seu site funcione sempre."
+      },
+      {
+        "title": "Saiba quem visita seu imóvel",
+        "text": "Veja quantas pessoas acessam seu site e de qual país, em linguagem simples."
+      },
+      {
+        "title": "Receba um resumo todo mês, sem precisar fazer nada",
+        "text": "Chega um e-mail com tudo o que importa. Sem acessar nada, sem aprender nada novo."
+      },
+      {
+        "title": "Seus hóspedes voltam para você",
+        "text": "Seus clientes reservam direto com você, não com uma plataforma. Você constrói sua marca."
+      }
+    ]
+  },
+  "Calculator": {
+    "title": "Quanto você está perdendo em comissões?",
+    "subtitle": "Mova o valor e veja sua economia na hora.",
+    "sliderLabel": "Meu imóvel gera por temporada:",
+    "airbnbLabel": "As grandes plataformas cobram (20%)",
+    "propiaLabel": "Com a Propia Digital você paga (plano anual)",
+    "savingsLabel": "Sua economia em um ano",
+    "cta": "Quero economizar isso",
+    "disclaimer": "Cálculo estimado para fins ilustrativos. A economia real depende do seu imóvel e da temporada."
+  },
+  "Pricing": {
+    "title": "Escolha o plano que melhor combina com você",
+    "subtitle": "Sem surpresas. Tudo incluído para seu site funcionar desde o primeiro dia.",
+    "popular": "Mais popular",
+    "perMonth": " USD/mês",
+    "setup": "Configuração inicial: $100 USD + $50 USD por imóvel",
+    "cta": "Começar com este plano",
+    "plans": {
+      "essential": {
+        "name": "Essencial",
+        "price": "$80",
+        "features": [
+          "Seu site completo",
+          "Até 3 imóveis",
+          "Seu próprio painel de controle",
+          "Botão de WhatsApp direto",
+          "Estatísticas básicas de visitas",
+          "Imóveis adicionais: $50 USD cada"
+        ]
+      },
+      "professional": {
+        "name": "Profissional",
+        "price": "$130",
+        "features": [
+          "Tudo do plano Essencial",
+          "Até 8 imóveis",
+          "Blog para atrair mais visitantes",
+          "Resumo mensal por e-mail",
+          "Comparador de imóveis",
+          "1 imóvel adicional grátis por ano",
+          "A partir do segundo: $50 USD cada"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "$180",
+        "features": [
+          "Tudo do plano Profissional",
+          "Imóveis ilimitados",
+          "Atendimento prioritário",
+          "Integração personalizada",
+          "1 imóvel adicional grátis por ano",
+          "A partir do segundo: $50 USD cada"
+        ]
+      }
+    }
+  },
+  "Testimonials": {
+    "title": "O que dizem nossos clientes",
+    "subtitle": "Proprietários como você que deram o passo de ter seu próprio site.",
+    "items": [
+      {
+        "name": "Marcela Fernández",
+        "city": "Punta del Este, Uruguai",
+        "text": "Finalmente tenho meu próprio site. Meus hóspedes me escrevem direto e parei de pagar comissões enormes. A diferença se nota."
+      },
+      {
+        "name": "Roberto Giménez",
+        "city": "Buenos Aires, Argentina",
+        "text": "Tenho dois imóveis em La Barra e controlo tudo pelo celular. Simples, elegante e sem depender de ninguém."
+      },
+      {
+        "name": "Lucía Methol",
+        "city": "Maldonado, Uruguai",
+        "text": "O melhor é a tranquilidade. Minha marca é minha, meus clientes são meus. Recomendo a Propia Digital sem hesitar."
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Quer seu site? Vamos conversar.",
+    "subtitle": "Respondemos em menos de 24 horas.",
+    "name": "Nome",
+    "namePlaceholder": "Seu nome",
+    "email": "E-mail",
+    "emailPlaceholder": "voce@email.com",
+    "whatsapp": "WhatsApp",
+    "whatsappPlaceholder": "+598 ...",
+    "message": "Mensagem (opcional)",
+    "messagePlaceholder": "Conte-nos sobre seu imóvel...",
+    "submit": "Enviar consulta",
+    "sending": "Enviando...",
+    "success": "Obrigado! Recebemos sua consulta e responderemos em menos de 24 horas.",
+    "error": "Houve um problema ao enviar. Tente novamente ou escreva pelo WhatsApp.",
+    "or": "ou",
+    "whatsappButton": "Fale conosco no WhatsApp",
+    "emailLabel": "Escreva para"
+  },
+  "Footer": {
+    "tagline": "Seu imóvel, sua marca.",
+    "home": "Início",
+    "plans": "Planos",
+    "contact": "Contato",
+    "rights": "© 2025 Propia Digital. Todos os direitos reservados.",
+    "madeFor": "Feito para proprietários de imóveis em Punta del Este, Uruguai."
+  },
+  "Whatsapp": {
+    "prefill": "Olá, tenho interesse em ter meu site com a Propia Digital",
+    "aria": "Fale conosco no WhatsApp"
+  }
+}
