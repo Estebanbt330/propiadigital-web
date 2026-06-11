@@ -152,18 +152,36 @@
     "error": "Hubo un problema al enviar. Probá de nuevo o escribinos por WhatsApp.",
     "or": "o",
     "whatsappButton": "Escribinos por WhatsApp",
-    "emailLabel": "Escribinos a"
+    "emailLabel": "Escribinos a",
+    "consent": "Acepto la <link>política de privacidad</link>"
   },
   "Footer": {
     "tagline": "Tu propiedad, tu marca.",
     "home": "Inicio",
     "plans": "Planes",
     "contact": "Contacto",
+    "privacy": "Política de privacidad",
     "rights": "© 2025 Propia Digital. Todos los derechos reservados.",
     "madeFor": "Hecho para dueños de propiedades en Punta del Este, Uruguay."
   },
   "Whatsapp": {
     "prefill": "Hola, me interesa tener mi web con Propia Digital",
     "aria": "Escribinos por WhatsApp"
+  },
+  "Privacy": {
+    "title": "Política de privacidad",
+    "updated": "Última actualización: junio de 2025",
+    "intro": "En Propia Digital cuidamos tus datos con la misma seriedad con la que cuidamos tu propiedad. Esta página explica, de forma simple, qué información recopilamos y cómo la usamos.",
+    "dataTitle": "Qué datos recopilamos",
+    "dataText": "Cuando completás nuestro formulario de contacto, recopilamos los datos que vos nos das: tu nombre, tu email, tu número de WhatsApp y el mensaje que nos escribís.",
+    "useTitle": "Para qué los usamos",
+    "useText": "Usamos esos datos con un solo fin: responder tu consulta y ponernos en contacto con vos. Nunca vendemos ni compartimos tu información con terceros.",
+    "storageTitle": "Cómo los guardamos",
+    "storageText": "Tu información se guarda en una base de datos segura, con acceso restringido únicamente al equipo de Propia Digital.",
+    "deleteTitle": "Cómo pedir que eliminemos tus datos",
+    "deleteText": "Podés pedir que eliminemos tus datos cuando quieras. Solo escribinos a",
+    "operatorTitle": "Quién opera este sitio",
+    "operatorText": "Este sitio es operado por Propia Digital, con base en Maldonado, Uruguay.",
+    "back": "Volver al inicio"
   }
 }

@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { TbBrandWhatsapp, TbMail, TbCircleCheck, TbAlertTriangle, TbSend } from "react-icons/tb";
 import { submitContact, type ContactState } from "@/app/actions/contact";
 import { whatsappUrl, WHATSAPP_DISPLAY } from "@/lib/constants";
+import { Link } from "@/i18n/navigation";
 
 const initial: ContactState = { status: "idle" };
 
@@ -96,6 +97,27 @@ export default function Contact() {
                       {t("error")}
                     </p>
                   )}
+
+                  <label className="flex items-start gap-2.5 text-sm text-muted">
+                    <input
+                      type="checkbox"
+                      name="consent"
+                      required
+                      className="mt-0.5 h-4 w-4 shrink-0 accent-accent"
+                    />
+                    <span>
+                      {t.rich("consent", {
+                        link: (chunks) => (
+                          <Link
+                            href="/privacy"
+                            className="font-medium text-petrol underline-offset-2 hover:underline"
+                          >
+                            {chunks}
+                          </Link>
+                        ),
+                      })}
+                    </span>
+                  </label>
 
                   <button
                     type="submit"

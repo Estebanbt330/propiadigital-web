@@ -152,18 +152,36 @@
     "error": "There was a problem sending. Try again or write to us on WhatsApp.",
     "or": "or",
     "whatsappButton": "Message us on WhatsApp",
-    "emailLabel": "Write to us at"
+    "emailLabel": "Write to us at",
+    "consent": "I accept the <link>privacy policy</link>"
   },
   "Footer": {
     "tagline": "Your property, your brand.",
     "home": "Home",
     "plans": "Plans",
     "contact": "Contact",
+    "privacy": "Privacy policy",
     "rights": "© 2025 Propia Digital. All rights reserved.",
     "madeFor": "Made for property owners in Punta del Este, Uruguay."
   },
   "Whatsapp": {
     "prefill": "Hi, I'm interested in having my website with Propia Digital",
     "aria": "Message us on WhatsApp"
+  },
+  "Privacy": {
+    "title": "Privacy policy",
+    "updated": "Last updated: June 2025",
+    "intro": "At Propia Digital we look after your data with the same care we give your property. This page explains, in simple terms, what information we collect and how we use it.",
+    "dataTitle": "What data we collect",
+    "dataText": "When you fill out our contact form, we collect the data you give us: your name, your email, your WhatsApp number and the message you send us.",
+    "useTitle": "What we use it for",
+    "useText": "We use this data for one purpose only: to answer your inquiry and get in touch with you. We never sell or share your information with third parties.",
+    "storageTitle": "How we store it",
+    "storageText": "Your information is kept in a secure database, with access restricted to the Propia Digital team only.",
+    "deleteTitle": "How to request deletion of your data",
+    "deleteText": "You can ask us to delete your data at any time. Just write to",
+    "operatorTitle": "Who operates this site",
+    "operatorText": "This site is operated by Propia Digital, based in Maldonado, Uruguay.",
+    "back": "Back to home"
   }
 }

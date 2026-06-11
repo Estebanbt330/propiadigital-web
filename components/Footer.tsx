@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 export default function Footer() {
   const t = useTranslations("Footer");
@@ -37,6 +38,12 @@ export default function Footer() {
                 {l.label}
               </a>
             ))}
+            <Link
+              href="/privacy"
+              className="text-sm text-white/80 transition-colors hover:text-accent"
+            >
+              {t("privacy")}
+            </Link>
           </nav>
         </div>
 

@@ -152,18 +152,36 @@
     "error": "Houve um problema ao enviar. Tente novamente ou escreva pelo WhatsApp.",
     "or": "ou",
     "whatsappButton": "Fale conosco no WhatsApp",
-    "emailLabel": "Escreva para"
+    "emailLabel": "Escreva para",
+    "consent": "Aceito a <link>política de privacidade</link>"
   },
   "Footer": {
     "tagline": "Seu imóvel, sua marca.",
     "home": "Início",
     "plans": "Planos",
     "contact": "Contato",
+    "privacy": "Política de privacidade",
     "rights": "© 2025 Propia Digital. Todos os direitos reservados.",
     "madeFor": "Feito para proprietários de imóveis em Punta del Este, Uruguai."
   },
   "Whatsapp": {
     "prefill": "Olá, tenho interesse em ter meu site com a Propia Digital",
     "aria": "Fale conosco no WhatsApp"
+  },
+  "Privacy": {
+    "title": "Política de privacidade",
+    "updated": "Última atualização: junho de 2025",
+    "intro": "Na Propia Digital cuidamos dos seus dados com o mesmo zelo com que cuidamos do seu imóvel. Esta página explica, de forma simples, que informações coletamos e como as usamos.",
+    "dataTitle": "Que dados coletamos",
+    "dataText": "Quando você preenche nosso formulário de contato, coletamos os dados que você nos fornece: seu nome, seu e-mail, seu número de WhatsApp e a mensagem que nos envia.",
+    "useTitle": "Para que os usamos",
+    "useText": "Usamos esses dados com um único objetivo: responder sua consulta e entrar em contato com você. Nunca vendemos nem compartilhamos suas informações com terceiros.",
+    "storageTitle": "Como os armazenamos",
+    "storageText": "Suas informações são guardadas em um banco de dados seguro, com acesso restrito apenas à equipe da Propia Digital.",
+    "deleteTitle": "Como solicitar a exclusão dos seus dados",
+    "deleteText": "Você pode pedir que excluamos seus dados quando quiser. Basta escrever para",
+    "operatorTitle": "Quem opera este site",
+    "operatorText": "Este site é operado pela Propia Digital, com sede em Maldonado, Uruguai.",
+    "back": "Voltar ao início"
   }
 }
