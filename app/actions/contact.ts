@@ -1,6 +1,7 @@
 "use server";
 
 import { getSupabaseAdmin } from "@/lib/supabase";
+import { sendLeadEmail } from "@/lib/email";
 
 export type ContactState = {
   status: "idle" | "success" | "error";
@@ -26,20 +27,28 @@ export async function submitContact(
   // during local development and the form still confirms success.
   if (!supabase) {
     console.log("[lead]", { nombre: name, email, whatsapp, mensaje: message, locale });
-    return { status: "success" };
+  } else {
+    const { error } = await supabase.from("leads").insert({
+      nombre: name,
+      email,
+      whatsapp: whatsapp || null,
+      mensaje: message || null,
+    });
+
+    if (error) {
+      console.error("[lead] insert error", error.message);
+      return { status: "error" };
+    }
   }
 
-  const { error } = await supabase.from("leads").insert({
+  // Email notification is best-effort: a delivery failure must not lose
+  // the lead, which is already stored in Supabase at this point.
+  await sendLeadEmail({
     nombre: name,
     email,
-    whatsapp: whatsapp || null,
-    mensaje: message || null,
+    whatsapp,
+    mensaje: message,
   });
-
-  if (error) {
-    console.error("[lead] insert error", error.message);
-    return { status: "error" };
-  }
 
   return { status: "success" };
 }
