@@ -16,20 +16,20 @@ export default function Testimonials() {
   const items = t.raw("items") as Item[];
 
   return (
-    <section className="bg-white py-20 sm:py-28">
+    <section className="bg-white py-12 sm:py-28">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="text-3xl font-bold text-petrol sm:text-4xl">
+          <h2 className="text-2xl font-bold text-petrol sm:text-4xl">
             {t("title")}
           </h2>
           <p className="mt-4 text-lg text-muted">{t("subtitle")}</p>
         </div>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-3">
+        <div className="mt-8 grid gap-4 sm:mt-14 sm:gap-6 md:grid-cols-3">
           {items.map((item, i) => (
             <div
               key={i}
-              className="relative flex flex-col rounded-2xl border border-black/5 bg-cream/60 p-8 shadow-sm"
+              className="relative flex flex-col rounded-2xl border border-black/5 bg-cream/60 p-5 shadow-sm sm:p-8"
             >
               <TbQuote className="h-9 w-9 text-accent/30" />
               <p className="mt-3 flex-1 leading-relaxed text-ink/85">

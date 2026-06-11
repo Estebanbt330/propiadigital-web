@@ -25,7 +25,7 @@ export default function Hero() {
       />
 
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
-        <div className="animate-fade-up mb-8">
+        <div className="animate-fade-up mb-4 sm:mb-8">
           <Logo variant="hero" />
         </div>
 
@@ -33,13 +33,13 @@ export default function Hero() {
           {t("title")}
         </h1>
 
-        <p className="animate-fade-up mt-6 max-w-2xl text-base text-white/90 drop-shadow sm:text-lg">
+        <p className="animate-fade-up mt-4 max-w-2xl text-base text-white/90 drop-shadow sm:mt-6 sm:text-lg">
           {t("subtitle")}
         </p>
 
         <a
           href="#contacto"
-          className="animate-fade-up mt-9 inline-flex items-center rounded-lg bg-accent px-9 py-4 text-base font-semibold text-white shadow-lg transition-all hover:bg-accent-dark hover:shadow-xl sm:text-lg"
+          className="animate-fade-up mt-5 inline-flex items-center rounded-lg bg-accent px-9 py-4 text-base font-semibold text-white shadow-lg transition-all hover:bg-accent-dark hover:shadow-xl sm:mt-9 sm:text-lg"
         >
           {t("cta")}
         </a>

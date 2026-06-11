@@ -30,16 +30,16 @@ export default function Calculator() {
   const pct = ((value - MIN) / (MAX - MIN)) * 100;
 
   return (
-    <section className="bg-petrol py-20 sm:py-28">
+    <section className="bg-petrol py-12 sm:py-28">
       <div className="mx-auto max-w-4xl px-6">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold text-white sm:text-4xl">
+          <h2 className="text-2xl font-bold text-white sm:text-4xl">
             {t("title")}
           </h2>
           <p className="mt-4 text-lg text-white/70">{t("subtitle")}</p>
         </div>
 
-        <div className="mt-12 rounded-2xl bg-petrol-dark/60 p-7 ring-1 ring-white/10 sm:p-10">
+        <div className="mt-8 rounded-2xl bg-petrol-dark/60 p-5 ring-1 ring-white/10 sm:mt-12 sm:p-10">
           <label className="flex flex-col gap-4">
             <span className="flex flex-wrap items-baseline justify-between gap-2">
               <span className="text-base text-white/80">{t("sliderLabel")}</span>

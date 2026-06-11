@@ -25,16 +25,15 @@ export async function submitContact(
   // When Supabase isn't configured yet, log the lead so nothing is lost
   // during local development and the form still confirms success.
   if (!supabase) {
-    console.log("[lead]", { name, email, whatsapp, message, locale });
+    console.log("[lead]", { nombre: name, email, whatsapp, mensaje: message, locale });
     return { status: "success" };
   }
 
   const { error } = await supabase.from("leads").insert({
-    name,
+    nombre: name,
     email,
     whatsapp: whatsapp || null,
-    message: message || null,
-    locale,
+    mensaje: message || null,
   });
 
   if (error) {

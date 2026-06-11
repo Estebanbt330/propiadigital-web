@@ -18,16 +18,16 @@ export default function Contact() {
     "w-full rounded-lg border border-black/10 bg-white px-4 py-3 text-ink outline-none transition-colors placeholder:text-muted/60 focus:border-accent focus:ring-2 focus:ring-accent/20";
 
   return (
-    <section id="contacto" className="bg-cream py-20 sm:py-28">
+    <section id="contacto" className="bg-cream py-12 sm:py-28">
       <div className="mx-auto max-w-5xl px-6">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold text-petrol sm:text-4xl">
+          <h2 className="text-2xl font-bold text-petrol sm:text-4xl">
             {t("title")}
           </h2>
           <p className="mt-4 text-lg text-muted">{t("subtitle")}</p>
         </div>
 
-        <div className="mt-12 grid gap-8 lg:grid-cols-5">
+        <div className="mt-8 grid gap-4 sm:mt-12 sm:gap-8 lg:grid-cols-5">
           <div className="lg:col-span-3">
             {state.status === "success" ? (
               <div className="flex h-full flex-col items-center justify-center rounded-2xl border border-accent/20 bg-white p-10 text-center shadow-sm">

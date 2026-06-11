@@ -11,22 +11,22 @@ export default function Solution() {
   const benefits = t.raw("benefits") as Benefit[];
 
   return (
-    <section id="solucion" className="bg-white py-20 sm:py-28">
+    <section id="solucion" className="bg-white py-12 sm:py-28">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="text-3xl font-bold text-petrol sm:text-4xl">
+          <h2 className="text-2xl font-bold text-petrol sm:text-4xl">
             {t("title")}
           </h2>
           <p className="mt-4 text-lg text-muted">{t("subtitle")}</p>
         </div>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-2">
+        <div className="mt-8 grid gap-4 sm:mt-14 sm:gap-6 md:grid-cols-2">
           {benefits.map((b, i) => {
             const Icon = ICONS[i];
             return (
               <div
                 key={i}
-                className="flex gap-5 rounded-lg border border-black/5 bg-cream/60 p-7 transition-colors hover:bg-cream"
+                className="flex gap-5 rounded-lg border border-black/5 bg-cream/60 p-5 transition-colors hover:bg-cream sm:p-7"
               >
                 <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-lg bg-petrol text-white">
                   <Icon className="h-7 w-7" />

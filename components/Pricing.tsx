@@ -11,23 +11,23 @@ export default function Pricing() {
   const tw = useTranslations("Whatsapp");
 
   return (
-    <section id="planes" className="bg-cream py-20 sm:py-28">
+    <section id="planes" className="bg-cream py-12 sm:py-28">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="text-3xl font-bold text-petrol sm:text-4xl">
+          <h2 className="text-2xl font-bold text-petrol sm:text-4xl">
             {t("title")}
           </h2>
           <p className="mt-4 text-lg text-muted">{t("subtitle")}</p>
         </div>
 
-        <div className="mt-14 grid items-start gap-6 lg:grid-cols-3">
+        <div className="mt-8 grid items-start gap-4 sm:mt-14 sm:gap-6 lg:grid-cols-3">
           {PLAN_KEYS.map((key) => {
             const plan = t.raw(`plans.${key}`) as Plan;
             const popular = key === "professional";
             return (
               <div
                 key={key}
-                className={`relative flex h-full flex-col rounded-2xl border p-8 transition-shadow ${
+                className={`relative flex h-full flex-col rounded-2xl border p-5 transition-shadow sm:p-8 ${
                   popular
                     ? "border-accent bg-white shadow-xl lg:-mt-4 lg:mb-4"
                     : "border-black/5 bg-white shadow-sm hover:shadow-md"
