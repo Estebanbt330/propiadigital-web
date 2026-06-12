@@ -4,6 +4,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Playfair_Display, Inter } from "next/font/google";
 import { routing } from "@/i18n/routing";
+import MetaPixel from "@/components/MetaPixel";
 import "../globals.css";
 
 const playfair = Playfair_Display({
@@ -54,6 +55,7 @@ export default async function LocaleLayout({
       className={`${playfair.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-cream text-ink">
+        <MetaPixel />
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>
